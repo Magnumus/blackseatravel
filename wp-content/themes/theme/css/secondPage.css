@@ -1,0 +1,102 @@
+
+.forms {
+    background: transparent !important;
+    padding: 2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.forms h1 {
+    text-align: center;
+    font-size: 4.4rem;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.forms input,
+.forms textarea {
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 5rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border: 3px solid #f1f1f1;
+    resize: none;
+    text-align: right;
+    direction: rtl;
+    color: #fff;
+}
+
+.forms input:focus,
+.forms textarea:focus,
+.forms input:hover,
+.forms textarea:hover {
+    color: #f1f1f1;
+    border: 3px solid #FFF;
+    outline: none;
+}
+
+.forms button {
+    display: block;
+    padding: 1rem 4rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    border: 3px solid #2c2642;
+    border-radius: 12px;
+    background-color: rgb(152, 207, 157);
+    cursor: pointer;
+    color: #000;
+    float: right;
+    -webkit-transition: 500ms ease;
+    -o-transition: 500ms ease;
+    transition: 500ms ease;
+}
+
+.forms button:hover {
+    background-color: rgba(99, 135, 101, 0.91);
+    color: #ffffff;
+}
+
+.forms button:focus {
+    outline: none;
+}
+
+.textBlock {
+    padding: 2rem;
+}
+
+main#Block h1.descHead {
+    font-size: 5rem;
+    color: #fff;
+    margin: 3rem 0;
+}
+
+main#Block {
+    background: url("../images/bgHeader.jpg") center no-repeat;
+    background-size: cover;
+}
+
+main#Block .description {
+    padding: 4rem 2rem;
+    color: #000;
+    background-color: rgba(237, 231, 224, 0.8);
+
+}
+
+main#Block .description p {
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    text-indent: 3rem;
+    direction: rtl;
+}
+
+main#Block .description img {
+    margin: 1rem auto;
+}

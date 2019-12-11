@@ -1,0 +1,100 @@
+@media screen and (max-width: 1240px) {
+    main#bodyMain .block{
+        margin: 1rem ;
+    }
+}
+
+
+@media screen and (max-width: 1040px) {
+    #header .header-top {
+        padding: 2rem
+    }
+
+    #header .header-top nav a {
+        padding: .5rem !important
+    }
+
+    #header .header-bottom {
+        height: 600px
+    }
+
+    main#bodyMain .block {
+        margin: 1rem 0 ;
+
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #header .header-top nav.main-menu a {
+        padding: 0
+    }
+
+    #header .header-top {
+        padding: 0 !important
+    }
+
+    #menu-burger-button + nav label {
+        display: none
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+
+    #header .header-top .home, #header .header-top nav {
+        display: none
+    }
+
+    .descHead {
+        text-align: center !important;
+        margin-top: 7rem !important
+    }
+
+    #menu-burger-button + nav label {
+        display: block !important
+    }
+
+    #header .header-top {
+        padding: 0
+    }
+
+    #header .header-bottom {
+        height: 600px
+    }
+
+    section#form h1 {
+        line-height: 125%
+    }
+
+    main#bodyMain {
+        margin: 0;
+        padding: 1rem 0
+    }
+
+    main#bodyMain .block {
+        margin: .5rem 0 !important;
+        padding: 2rem
+    }
+
+    main#bodyMain h1 {
+        font-size: 3rem;
+        margin: 1rem
+    }
+
+    main#bodyMain .block h2, main#bodyMain .block p {
+        font-size: 2rem
+    }
+
+    main#bodyMain .block h1 {
+        font-size: 4rem;
+        position: absolute;
+        bottom: 0;
+        left: .5rem
+    }
+
+    #menu-burger-button + nav label {
+        display: block
+    }
+}
